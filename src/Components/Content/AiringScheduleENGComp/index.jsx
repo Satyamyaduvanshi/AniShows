@@ -91,7 +91,7 @@ function AiringScheduleENGComp({ airingSchedule }) {
 													{
 														hour: "2-digit",
 														minute: "2-digit",
-														hour12: false,
+														hour12: true,
 													}
 												)}
 											</p>
@@ -139,7 +139,7 @@ function AiringScheduleENGComp({ airingSchedule }) {
 										{item.rating?.anilist && (
 											<div className="hidden xl:flex">
 												<p className="mx-2 text-slate-300 text-xs">
-													{item.rating.anilist}/10 ❤
+													{item.rating.anilist}/10 
 												</p>
 											</div>
 										)}
